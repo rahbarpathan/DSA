@@ -29,7 +29,7 @@ public:
 
     }
     double soupServings(int n) {
-        if(n>4800){
+        if(n>5000){
             return 1;
         }
         t.resize(n+1 , vector<double>(n+1 , -1.0));
